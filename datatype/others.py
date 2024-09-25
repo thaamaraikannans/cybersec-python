@@ -1,6 +1,6 @@
 ### Set --->> Declaring with the Curly Braces {}
 
-my_set = {10, 20, 30, 40, "Gokul"}
+my_set = {10, 20, 30, 40, "Gokul", 10, 10, 10, 10}
 
 print(my_set)
 print(type(my_set))
@@ -22,9 +22,10 @@ print("second variable value is :", var2)
 my_dict = {
    "name" : "Kannan",
    "age": 18,
-   "hometown" : "CBE"
+   "hometown" : "CBE",
+   "name": "Gokul"
 }
 
-print(my_dict)
+print(my_dict["age"])
 print(type(my_dict))
 
